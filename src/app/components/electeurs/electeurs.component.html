@@ -1,0 +1,20 @@
+
+<form [formGroup]="electeursForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="numElecteur">Numéro d'électeur :</label>
+    <input type="text" id="numElecteur" formControlName="num_electeur">
+  </div>
+  <div>
+    <label for="numCarteIdentite">Numéro de carte d'identité :</label>
+    <input type="text" id="numCarteIdentite" formControlName="cni" >
+  </div>
+  <div>
+    <label for="nomFamille">Nom de famille :</label>
+    <input type="text" id="nomFamille" formControlName="nom" >
+  </div>
+  <div>
+    <label for="numBureauVote">Numéro de bureau de vote :</label>
+    <input type="text" id="numBureauVote" formControlName="num_bureau">
+  </div>
+  <button type="submit" [disabled]="!electeursForm.valid" >Submit</button>
+</form>
