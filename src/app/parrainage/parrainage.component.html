@@ -1,0 +1,17 @@
+<h1 class="titre">Choisir un candidat à parrainer</h1>
+<div *ngIf="parrainageSuccess" class="success-message">
+    Parrainage effectué avec succès !
+</div>
+<div class="card-container">
+  <div *ngFor="let candidat of candidats; index as index" class="card">
+    <img src="../../assets/images/sonko.jpg" alt="Candidat election" class="card__background" />
+    <div class="card__content">
+      <div class="card__content--container">
+        <h2 class="card__title">{{ candidat.nom }} {{ candidat.prenom }} </h2>
+        <p class="card__description"></p>
+      </div>
+      <button class="card__button" (click)="parrainer(candidat.id_candidat)">Parrainer</button>
+    </div>
+  </div>
+</div>
+
