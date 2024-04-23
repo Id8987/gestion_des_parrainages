@@ -1,0 +1,96 @@
+form {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto; /* Centrage horizontal */
+    position: absolute; /* Changement de position */
+    top: 60%; /* Déplacement vertical au milieu */
+    left: 50%;
+    transform: translate(-50%, -50%); 
+  }
+  
+  /* Espacement entre les éléments du formulaire */
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  /* Style des inputs */
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style des boutons */
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(94, 94, 150);
+  }
+  
+  /* Style pour le bloc informationsValides */
+  div[informationsValides] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Espacement entre les divs dans informationsValides */
+  div[informationsValides] div {
+    margin-bottom: 15px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color:  dodgerblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  form {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Autres styles pour les éléments du formulaire... */
+  

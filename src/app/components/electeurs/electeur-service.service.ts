@@ -9,7 +9,7 @@ import {Electeur} from "./electeur";
 export class ElecteurServiceService {
 
   constructor(private http:HttpClient) {}
-  url:string = 'https://iacademy2.oracle.com/ords/sn_a419_plsql_s57/api_parrainage/verifier_information/';
+  url:string = 'https://iacademy2.oracle.com/ords/sn_a419_plsql_s38/api_parrainage/verification_informations';
   chercherInformationUser(information:Electeur):Observable<any>{
     return this.http.get<any>(this.url, {
       params:{

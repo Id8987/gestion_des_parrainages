@@ -1,8 +1,11 @@
 export interface Electeur {
+ 
   nom: string;
   //prenom: string;
   cni: string;
   num_electeur: string;
+  email: string;
+  telephone: string;
   //sexe: string;
  // lieu_naissance: string;
   //telephone: string;
