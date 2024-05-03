@@ -8,10 +8,8 @@ import {AppComponent} from "./app.component";
 export const routes: Routes = [
   {path:'', component:AccueilComponent},
   {path:'electeur', component:ElecteursComponent},
-  {path:'parrainage', component:ParrainageComponent}
-];
-
-
-
+  {path:'parrainage', component:ParrainageComponent},
 
 ];
+
+
